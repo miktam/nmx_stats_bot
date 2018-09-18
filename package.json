@@ -1,0 +1,17 @@
+{
+  "name": "nmxstatsbot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for ICO stats",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "telegraf": "^3.23.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Karpushonak",
+  "license": "MIT"
+}
