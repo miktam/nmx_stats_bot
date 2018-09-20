@@ -53,7 +53,7 @@ const printLastElements = (ctx) => {
       const res = JSON.parse(resultFromServer);
       const transactionListSorted = res.result;
       const readableTransaction = transactionListSorted.map(utils.usefulTransactionInfo).reverse().slice(0, LAST_N_ELEMENT);
-      let stringToReturn;
+      let stringToReturn = '';
       // print output in `1.0825 eth 10 hours ago from 0x43b..b1d` way
       readableTransaction.map((x) => {
         stringToReturn += x.value + ' eth ' + x.when + ' from ' + x.from + '\n';
